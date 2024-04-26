@@ -20,7 +20,6 @@ public class Conexion {
             
             Class.forName("com.mysql.jdbc.Driver");
             Conect = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mvc","MORJAN","Moreno.880501");
-            JOptionPane.showMessageDialog(null, "conectado a la Base de Datos !!!");
             System.out.println("conectado a la Base de Datos !!!");
         }catch(Exception e){
             System.err.println("=> "+e.getMessage());
