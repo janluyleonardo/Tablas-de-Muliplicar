@@ -5,6 +5,10 @@
  */
 package login;
 
+import views.sumar.suma;
+import views.restar.resta;
+import views.multiplicacion.sesionTablas;
+import views.division.division;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 

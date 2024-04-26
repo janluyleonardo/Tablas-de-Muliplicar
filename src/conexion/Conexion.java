@@ -16,8 +16,6 @@ public class Conexion {
     Connection Conect = null;
     public Connection conectar(){
         try{
-//            Class.forName("org.gjt.mm.mysql.Driver");
-            
             Class.forName("com.mysql.jdbc.Driver");
             Conect = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mvc","MORJAN","Moreno.880501");
             System.out.println("conectado a la Base de Datos !!!");
